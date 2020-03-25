@@ -1,6 +1,6 @@
 (ExpressProject "Flex-Ventilator-Control"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S001 (3827795) [11/11/2019]-[03/21/20]")
+  (SoftwareVersion "17.4-2019 S001 (3827795) [11/11/2019]-[03/24/20]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -11,7 +11,8 @@
     (File ".\flex-ventilator-control.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
-    (CompileFileAddedOrDeleted "x"))
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow"))
   (Folder "Layout")
   (Folder "Outputs")
   (Folder "Referenced Projects")
@@ -24,33 +25,70 @@
     (Folder "Include Files"
       (Sort User)))
   (Folder "Logs")
-  (PartMRUSelector)
+  (PartMRUSelector
+    ("NPN BCE"
+      (FullPartName "NPN BCE.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "D:\depots_DAPEM\adhoc_inventors\Electronic\Schematic\flex-ventilator-control.dsn")
+         "d:\depots_dapem\adhoc_inventors\electronic\schematic\flex-ventilator-control.dsn")
       (Path "Design Resources"
-         "D:\depots_DAPEM\adhoc_inventors\Electronic\Schematic\flex-ventilator-control.dsn"
+         "d:\depots_dapem\adhoc_inventors\electronic\schematic\flex-ventilator-control.dsn"
          "SCHEMATIC1")
       (Select "Design Resources"
-         "D:\depots_DAPEM\adhoc_inventors\Electronic\Schematic\flex-ventilator-control.dsn"
-         "SCHEMATIC1"))
+         "d:\depots_dapem\adhoc_inventors\electronic\schematic\flex-ventilator-control.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 875"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 384 0 852"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1674 24 893")
-        (Scroll "-265 -8")
+        (Placement "44 0 1 -1 -1 5 24 5 1134 24 893")
+        (Scroll "0 0")
         (Zoom "114")
         (Occurrence "/"))
       (Path
          "D:\DEPOTS_DAPEM\ADHOC_INVENTORS\ELECTRONIC\SCHEMATIC\FLEX-VENTILATOR-CONTROL.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "PAGE1 - Module")))
-  (MPSSessionName "Andre"))
+      (Page "PAGE1 - Module"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1134 24 893")
+        (Scroll "0 0")
+        (Zoom "88")
+        (Occurrence "/"))
+      (Path
+         "D:\DEPOTS_DAPEM\ADHOC_INVENTORS\ELECTRONIC\SCHEMATIC\FLEX-VENTILATOR-CONTROL.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE3 - Power"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1134 24 893")
+        (Scroll "-9 -74")
+        (Zoom "71")
+        (Occurrence "/"))
+      (Path
+         "D:\DEPOTS_DAPEM\ADHOC_INVENTORS\ELECTRONIC\SCHEMATIC\FLEX-VENTILATOR-CONTROL.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE5 - Sensors"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1134 24 893")
+        (Scroll "0 0")
+        (Zoom "114")
+        (Occurrence "/"))
+      (Path
+         "D:\DEPOTS_DAPEM\ADHOC_INVENTORS\ELECTRONIC\SCHEMATIC\FLEX-VENTILATOR-CONTROL.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE2 - Connector")))
+  (MPSSessionName "Andre")
+  (LastUsedLibraryBrowseDirectory "D:\depots_C2T3\Generic-Cadence\schematic"))
