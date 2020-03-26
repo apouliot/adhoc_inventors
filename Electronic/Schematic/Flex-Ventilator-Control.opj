@@ -1,6 +1,6 @@
 (ExpressProject "Flex-Ventilator-Control"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S001 (3827795) [11/11/2019]-[03/24/20]")
+  (SoftwareVersion "17.4-2019 S001 (3827795) [11/11/2019]-[03/25/20]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -26,6 +26,47 @@
       (Sort User)))
   (Folder "Logs")
   (PartMRUSelector
+    ("MOSFET N"
+      (FullPartName "MOSFET N.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (DIODE
+      (FullPartName "DIODE.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 2"
+      (FullPartName "HEADER 2.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 8"
+      (FullPartName "HEADER 8.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 7"
+      (FullPartName "HEADER 7.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 5"
+      (FullPartName "HEADER 5.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (ATMEGA328P-AUR
+      (FullPartName "ATMEGA328P-AUR.Normal")
+      (LibraryName
+         "D:\DEPOTS_DAPEM\ADHOC_INVENTORS\ELECTRONIC\LIBRARY\ATMEGA328P-AUR\ATMEGA328P-AUR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 6"
+      (FullPartName "HEADER 6.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 10"
+      (FullPartName "HEADER 10.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 15"
+      (FullPartName "HEADER 15.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
     ("NPN BCE"
       (FullPartName "NPN BCE.Normal")
       (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
@@ -83,12 +124,24 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 5 24 5 1134 24 893")
-        (Scroll "0 0")
-        (Zoom "114")
+        (Scroll "804 531")
+        (Zoom "142")
         (Occurrence "/"))
       (Path
          "D:\DEPOTS_DAPEM\ADHOC_INVENTORS\ELECTRONIC\SCHEMATIC\FLEX-VENTILATOR-CONTROL.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "PAGE2 - Connector")))
+      (Page "PAGE2 - Connector"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1134 24 893")
+        (Scroll "0 0")
+        (Zoom "111")
+        (Occurrence "/"))
+      (Path
+         "D:\DEPOTS_DAPEM\ADHOC_INVENTORS\ELECTRONIC\SCHEMATIC\FLEX-VENTILATOR-CONTROL.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE4 - MCU")))
   (MPSSessionName "Andre")
-  (LastUsedLibraryBrowseDirectory "D:\depots_C2T3\Generic-Cadence\schematic"))
+  (LastUsedLibraryBrowseDirectory
+     "D:\depots_DAPEM\adhoc_inventors\Electronic\library\ATMEGA328P-AUR"))
