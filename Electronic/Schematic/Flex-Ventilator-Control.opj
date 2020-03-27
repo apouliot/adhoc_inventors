@@ -1,6 +1,6 @@
 (ExpressProject "Flex-Ventilator-Control"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S001 (3827795) [11/11/2019]-[03/25/20]")
+  (SoftwareVersion "17.4-2019 S001 (3827795) [11/11/2019]-[03/26/20]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -26,12 +26,32 @@
       (Sort User)))
   (Folder "Logs")
   (PartMRUSelector
-    ("MOSFET N"
-      (FullPartName "MOSFET N.Normal")
+    ("HEADER 3X2"
+      (FullPartName "HEADER 3X2.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CRYSTAL
+      (FullPartName "CRYSTAL.Normal")
       (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
     (DIODE
       (FullPartName "DIODE.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("DIODE ZENER"
+      (FullPartName "DIODE ZENER.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("NPN DAR BCE"
+      (FullPartName "NPN DAR BCE.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    ("MOSFET N"
+      (FullPartName "MOSFET N.Normal")
       (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
     ("HEADER 2"
@@ -85,14 +105,14 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 384 0 852"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 331 0 875"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1134 24 893")
-        (Scroll "0 0")
-        (Zoom "114")
+        (Placement "44 0 1 -1 -1 5 24 5 1187 24 893")
+        (Scroll "-5 -55")
+        (Zoom "75")
         (Occurrence "/"))
       (Path
          "D:\DEPOTS_DAPEM\ADHOC_INVENTORS\ELECTRONIC\SCHEMATIC\FLEX-VENTILATOR-CONTROL.DSN")
@@ -101,7 +121,7 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1134 24 893")
+        (Placement "44 0 1 -1 -1 5 24 5 1187 24 893")
         (Scroll "0 0")
         (Zoom "88")
         (Occurrence "/"))
@@ -112,20 +132,20 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1134 24 893")
-        (Scroll "-9 -74")
-        (Zoom "71")
+        (Placement "44 0 1 -1 -1 5 24 5 1187 24 893")
+        (Scroll "0 -6")
+        (Zoom "85")
         (Occurrence "/"))
       (Path
          "D:\DEPOTS_DAPEM\ADHOC_INVENTORS\ELECTRONIC\SCHEMATIC\FLEX-VENTILATOR-CONTROL.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "PAGE5 - Sensors"))
+      (Page "PAGE5 - UI"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1134 24 893")
-        (Scroll "804 531")
-        (Zoom "142")
+        (Placement "44 0 1 -1 -1 5 24 5 1187 24 893")
+        (Scroll "-5 -55")
+        (Zoom "75")
         (Occurrence "/"))
       (Path
          "D:\DEPOTS_DAPEM\ADHOC_INVENTORS\ELECTRONIC\SCHEMATIC\FLEX-VENTILATOR-CONTROL.DSN")
@@ -134,8 +154,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1134 24 893")
-        (Scroll "0 0")
+        (Placement "44 0 1 -1 -1 5 24 5 1187 24 893")
+        (Scroll "0 88")
         (Zoom "111")
         (Occurrence "/"))
       (Path
