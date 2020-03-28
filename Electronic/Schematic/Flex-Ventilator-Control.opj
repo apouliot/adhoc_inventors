@@ -1,6 +1,6 @@
 (ExpressProject "Flex-Ventilator-Control"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S001 (3827795) [11/11/2019]-[03/26/20]")
+  (SoftwareVersion "17.4-2019 S001 (3827795) [11/11/2019]-[03/27/20]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -122,8 +122,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 5 24 5 1187 24 893")
-        (Scroll "0 0")
-        (Zoom "88")
+        (Scroll "-5 -55")
+        (Zoom "75")
         (Occurrence "/"))
       (Path
          "D:\DEPOTS_DAPEM\ADHOC_INVENTORS\ELECTRONIC\SCHEMATIC\FLEX-VENTILATOR-CONTROL.DSN")
@@ -133,8 +133,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 5 24 5 1187 24 893")
-        (Scroll "0 -6")
-        (Zoom "85")
+        (Scroll "-5 -55")
+        (Zoom "75")
         (Occurrence "/"))
       (Path
          "D:\DEPOTS_DAPEM\ADHOC_INVENTORS\ELECTRONIC\SCHEMATIC\FLEX-VENTILATOR-CONTROL.DSN")
