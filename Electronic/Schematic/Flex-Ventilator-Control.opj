@@ -1,10 +1,11 @@
 (ExpressProject "Flex-Ventilator-Control"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S001 (3827795) [11/11/2019]-[03/30/20]")
+  (SoftwareVersion "17.4-2019 S001 (3827795) [11/11/2019]-[03/31/20]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
-    ("Allegro Netlist Directory" "allegro")
+    ("Allegro Netlist Directory"
+       "D:\depots_DAPEM\adhoc_inventors\Electronic\netlist")
     (DOCKED "TRUE")
     (DOCKING_POSITION "59420")
     (NoModify)
@@ -12,9 +13,67 @@
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
-    (Board_sim_option "VHDL_flow"))
+    (Board_sim_option "VHDL_flow")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "D:\DEPOTS_DAPEM\ADHOC_INVENTORS\ELECTRONIC\SCHEMATIC\FLEX-VENTILATOR-CONTROL.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{Manufacturer}\t{Manufacturer nb}\t{Supplier}\t{Supplier nb}\t{Price}\t{Min buy}\t{Equipped}\t{Equipped-proto}\t{Description}\t{Rated Temp}\t{Datasheet}")
+    (BOM_Header
+       "Item\tQuantity\tReference\tPart\tManufacturer\tManufacturer nb\tSupplier\tSupplier nb\tPrice\tMin buy\tEquipped\tEquipped-proto\tDescription\tRated Temp\tDatasheet")
+    (BOM_Include_File
+       "D:\DEPOTS_DAPEM\ADHOC_INVENTORS\ELECTRONIC\SCHEMATIC\FLEX-VENTILATOR-CONTROL.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "TRUE")
+    (BOM_View_Output "FALSE")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File"
+       ".\allegro\flex-ventilator-control.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "255")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE"))
   (Folder "Layout")
-  (Folder "Outputs")
+  (Folder "Outputs"
+    (File ".\flex-ventilator-control.bom"
+      (Type "Report"))
+    (File "..\netlist\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File "..\netlist\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File "..\netlist\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
@@ -26,6 +85,10 @@
       (Sort User)))
   (Folder "Logs")
   (PartMRUSelector
+    (CRYSTAL1-4/SM
+      (FullPartName "CRYSTAL1-4/SM.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (282837-2
       (FullPartName "282837-2.Normal")
       (LibraryName
@@ -99,9 +162,14 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\flex-ventilator-control.dsn")
-      (Path "Design Resources" ".\flex-ventilator-control.dsn" "SCHEMATIC1")
-      (Select "Design Resources" ".\flex-ventilator-control.dsn"))
+      (Path "Design Resources"
+         "d:\depots_dapem\adhoc_inventors\electronic\schematic\flex-ventilator-control.dsn")
+      (Path "Design Resources"
+         "d:\depots_dapem\adhoc_inventors\electronic\schematic\flex-ventilator-control.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "d:\depots_dapem\adhoc_inventors\electronic\schematic\flex-ventilator-control.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -112,7 +180,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 5 1674 24 892")
-        (Scroll "-142 0")
+        (Scroll "-150 0")
         (Zoom "88")
         (Occurrence "/"))
       (Path
@@ -122,8 +190,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 5 1674 24 892")
-        (Scroll "-142 0")
+        (Placement "44 0 1 -1 -1 5 24 5 1674 24 892")
+        (Scroll "-150 0")
         (Zoom "88")
         (Occurrence "/"))
       (Path
@@ -134,7 +202,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 5 1674 24 892")
-        (Scroll "-142 0")
+        (Scroll "-150 0")
         (Zoom "88")
         (Occurrence "/"))
       (Path
@@ -144,8 +212,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 5 1674 24 892")
-        (Scroll "-142 0")
+        (Placement "44 0 1 -1 -1 5 24 5 1674 24 892")
+        (Scroll "-150 0")
         (Zoom "88")
         (Occurrence "/"))
       (Path
@@ -155,7 +223,7 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 5 1674 24 892")
+        (Placement "44 0 1 -1 -1 5 24 5 1674 24 892")
         (Scroll "0 88")
         (Zoom "111")
         (Occurrence "/"))
@@ -165,4 +233,5 @@
       (Page "PAGE4 - MCU")))
   (MPSSessionName "Andre")
   (LastUsedLibraryBrowseDirectory
-     "D:\depots_DAPEM\adhoc_inventors\Electronic\library\ATMEGA328P-AUR"))
+     "D:\depots_DAPEM\adhoc_inventors\Electronic\library\ATMEGA328P-AUR")
+  (ISPCBBASICLICENSE "true"))
